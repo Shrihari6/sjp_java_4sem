@@ -15,7 +15,7 @@ class Rectangle{ // Default Constructor
     return length*width; 
     } 
     } 
-    public class Main{ 
+    public class Exp7{ 
     public static void main(String args[]){ 
     Rectangle R1 = new Rectangle(); 
     Rectangle R2 = new Rectangle(20, 20); 
