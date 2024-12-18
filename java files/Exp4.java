@@ -1,6 +1,6 @@
 // If else statement
 
-public class Main{ 
+public class Exp4{ 
     public static void main(String args[]){ 
     int n1 = 11, n2 = 22; 
     if (n1 >=n2 ) 
