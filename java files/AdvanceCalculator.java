@@ -7,7 +7,7 @@ public class AdvanceCalculator {
     // List to store calculation history
     private static ArrayList<String> history = new ArrayList<>();
 
-    // Display the main menu
+    //Display the main menu
     public static void displayMenu() {
         System.out.println("\n=== Smart Calculator ===");
         System.out.println("1. Basic Operations (+, -, *, /)");
