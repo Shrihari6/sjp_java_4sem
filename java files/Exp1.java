@@ -1,13 +1,19 @@
-// Different Types of variables
+// Different Types of Variables Example
 
-public class Main{ 
-    int myvariable = 20; //Instance Variable 
-    static int data = 30; //Static Variable 
-    public static void main (String args[]){int myvariable = 50; 
-    int localvalue = 80; // local Variable 
-    Main obj = new Main (); 
-    System.out.println("Value of Instance Variable :"+ obj.myvariable); 
-    System.out.println("Value of Static Variable :" + Main.data); 
-    System.out.println("Value of local Variable :" +localvalue); 
-    } 
+public class Exp1 {
+    int my_variable = 20; // Instance Variable
+    static int data = 30; // Static Variable
+
+    public static void main(String args[]) {
+        int my_variable = 50; // Local Variable
+        int localvalue = 80; // Local Variable
+
+        // Create an object to access the instance variable
+        Exp1 obj = new Exp1();
+
+        // Accessing variables
+        System.out.println("Value of Instance Variable: " + obj.my_variable);
+        System.out.println("Value of Static Variable: " + Exp1.data);
+        System.out.println("Value of Local Variable: " + localvalue);
     }
+}
